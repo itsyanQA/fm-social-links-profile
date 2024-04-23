@@ -1,0 +1,26 @@
+li {
+  text-align: center;
+  width: 100%;
+  background-color: var(--grey);
+  border-radius: 5px;
+  font-size: 14px;
+  width: 250px;
+  transition: background-color 250ms ease-out;
+
+  &:hover {
+    background-color: var(--green);
+
+    & a {
+      color: var(--off-black);
+    }
+  }
+
+  & a {
+    color: var(--white);
+    text-decoration: none;
+    width: 100%;
+    display: block;
+    transition: color 250ms ease-out;
+    padding: 10px;
+  }
+}
